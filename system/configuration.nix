@@ -4,16 +4,8 @@
   imports =
     [
       ./hardware-configuration.nix
-      ./nixos-config/graphics.nix
+      ./conf.d/graphics.nix
     ];
-
-  #hardware.graphics = {
-  #  enable = true;
-  #  extraPackages = with pkgs; [nvidia-vaapi-driver];
-  #};
-
-  #services.xserver.videoDrivers = [ "nvidia" ];
-  #hardware.nvidia.open =false; # Set to false to use the proprietary kernel module
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -62,6 +54,7 @@
     variant = "";
   };
 
+  # Steam is stuck here for now
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
