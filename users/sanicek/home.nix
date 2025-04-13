@@ -28,6 +28,7 @@
     git-crypt
     signal-desktop
     discord
+    wget
   ];
 
   home.file = {
