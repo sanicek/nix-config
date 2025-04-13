@@ -22,7 +22,7 @@
 
   home.packages = with pkgs; [
     google-chrome
-    gnomeExtensions.tiling-assistant
+    gnomeExtensions.wintile-windows-10-window-tiling-for-gnome
     openssl
     gnupg
     git-crypt
