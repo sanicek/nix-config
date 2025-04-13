@@ -10,6 +10,7 @@
     [
       ./conf.d/bash.nix
       ./conf.d/git.nix
+      ./conf.d/gnome.nix
       ./conf.d/kitty.nix
     ];
 
