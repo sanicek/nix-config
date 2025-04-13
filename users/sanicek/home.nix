@@ -26,6 +26,7 @@
     gnupg
     git-crypt
     signal-desktop
+    discord
   ];
 
   home.file = {
