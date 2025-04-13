@@ -25,6 +25,7 @@
     openssl
     gnupg
     git-crypt
+    signal-desktop
   ];
 
   home.file = {
