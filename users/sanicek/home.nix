@@ -29,6 +29,7 @@
     signal-desktop
     discord
     wget
+    input-leap
   ];
 
   home.file = {
