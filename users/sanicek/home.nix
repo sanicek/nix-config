@@ -8,7 +8,7 @@
   
   # TODO: automatic recursive inclusion
   # example https://github.com/evanjs/nixos_cfg/blob/4bb5b0b84a221b25cf50853c12b9f66f0cad3ea4/config/new-modules/default.nix
-  
+
   imports =
     [
       ./conf.d/bash.nix
@@ -33,6 +33,7 @@
     discord
     wget
     input-leap
+    dos2unix
   ];
 
   home.file = {
