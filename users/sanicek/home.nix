@@ -35,10 +35,7 @@
     input-leap
     dos2unix
   ];
-
-  home.file = {
-  };
-
+ 
   home.sessionVariables = {
     EDITOR = "vi";
   };
