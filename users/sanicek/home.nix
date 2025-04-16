@@ -34,6 +34,7 @@
     wget
     input-leap
     dos2unix
+    dig
   ];
  
   home.sessionVariables = {
