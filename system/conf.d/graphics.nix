@@ -12,4 +12,5 @@
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.nvidia.open =false; # Set to false to use the proprietary kernel module
 
+  boot.kernelParams = ["nvidia.NVreg_EnableGpuFirmware=0"];
 }
