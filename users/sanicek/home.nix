@@ -35,6 +35,7 @@
     input-leap
     dos2unix
     dig
+    drawing
   ];
  
   home.sessionVariables = {
