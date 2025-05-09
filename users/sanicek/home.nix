@@ -37,6 +37,7 @@
     dig
     drawing
     zip
+    unzip
     mc
   ];
  
