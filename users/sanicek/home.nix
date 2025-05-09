@@ -38,6 +38,7 @@
     drawing
     zip
     unzip
+    file
     mc
   ];
  
