@@ -36,6 +36,7 @@
     dos2unix
     dig
     drawing
+    zip
   ];
  
   home.sessionVariables = {
