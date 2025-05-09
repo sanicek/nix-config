@@ -60,7 +60,9 @@
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
   };
   programs.steam.extraCompatPackages = with pkgs; [ proton-ge-bin ];
-
+  
+  programs.gamemode.enable = true;
+  
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
