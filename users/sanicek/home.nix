@@ -40,6 +40,7 @@
     unzip
     file
     mc
+    hplipWithPlugin
   ];
  
   home.sessionVariables = {
