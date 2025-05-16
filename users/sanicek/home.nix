@@ -15,6 +15,7 @@
       ./conf.d/git.nix
       ./conf.d/gnome.nix
       ./conf.d/kitty.nix
+      ./conf.d/portal.nix
     ];
 
   programs.vscode = {
@@ -42,6 +43,7 @@
     mc
     hplipWithPlugin
   ];
+
  
   home.sessionVariables = {
     EDITOR = "vi";
@@ -68,3 +70,4 @@
   home.stateVersion = "24.11";
 
 }
+
